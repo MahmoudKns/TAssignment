@@ -69,27 +69,11 @@ tr {
 tbody tr.active {
 	background-color: lightgreen;
 }
-/* tbody tr::before {
-	content: "";
-	position: absolute;
-	top: 50%;
-	left: 0;
-	width: 100%;
-	height: 2px;
-	background-color: black;
-	transition: 0.5s;
-	transform-origin: center;
-	transform: scale(0);
-} */
-/* tbody tr.active::before {
-	transform: scale(1);
-	z-index: 1111;
-} */
-
 table td {
 	border-bottom: 2px solid #b1b1b1;
 	padding: 0.85rem;
 	flex: 1;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 i {
 	cursor: pointer;
